@@ -17,7 +17,7 @@ class Topbar extends Component {
         const loggedin = (
             <div className="col-lg-6 col-md-5 col-sm-4 col-12 topbar-text-right sign-btns">
                 <Link href="#">
-                    <a onClick={this.props.logout} className="btn btn-primary sign-btn">Logout</a>
+                    <a onClick={this.props.logout} className="btn btn-primary sign-btn" style={{textTransform:"none"}}>Logout</a>
                 </Link>
             </div>
         );
@@ -25,10 +25,10 @@ class Topbar extends Component {
         const guest = (
             <div className="col-lg-6 col-md-5 col-sm-4 col-12 topbar-text-right sign-btns">
                 <Link href="/login">
-                    <a className="btn btn-primary sign-btn">Sign in</a>
+                    <a className="btn btn-primary sign-btn" style={{textTransform:"none"}}>Sign in</a>
                 </Link>&nbsp;&nbsp;&nbsp;
                 <Link href="/signup">
-                    <a className="btn btn-primary sign-btn">Sign up</a>
+                    <a className="btn btn-primary sign-btn" style={{textTransform:"none"}}>Sign up</a>
                 </Link>&nbsp;&nbsp;&nbsp;
             </div>
         );

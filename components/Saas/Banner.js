@@ -28,23 +28,23 @@ class Banner extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
-                <div className="main-banner saas-home bigscreen2" >
-                    <div className="d-table">
-                        <div className="d-table-cell">
+           
+                <div className=" bigscreen2" >
+                    <div >
+                        <div >
                             <div className="container bigscreen">
                                 <Row className="television">
 
 
-                                    <Col sm={12} md={12} lg={6} >
+                                    <Col sm={12} md={12} lg={6} style={{paddingTop:50}}>
                                         <div className="hero-content pl-4 ">
                                             <h1 className="response2 " style={{ fontSize: 50 }}>Anything Is Possible With <span style={{ color: "#FB6520" }}>Imagine</span> Digital Signage </h1>
 
                                             <p style={{ fontSize: 20 ,marginBottom:10}}>Take control of your screens! It’s easy to install and even easier to manage. Try Imagine for free today.</p>
                                             <div className="flexcontainerrow" style={{ justifyContent: "start" }}>
-
+                                            <div style={{ margin:"20px 10px", padding: "auto", fontSize: 40,color:"rgb(0,173,239)" }}><FaWindows ></FaWindows></div>
                                                 <div style={{ margin: 20, padding: "auto", fontSize: 40 }}><FcLinux ></FcLinux></div>
-                                                <img src={logo2} style={{ width: 80 }}></img>
+                                                <img src={logo2} style={{ width: 80,marginLeft:5,marginRight:5 }}></img>
                                                 <div style={{ margin: 20, padding: "auto", fontSize: 40, alignItems: "center", display: "flex", color: "#32DE84" }}><FaAndroid></FaAndroid></div>
 
 
@@ -100,7 +100,7 @@ class Banner extends React.Component {
                                         </div>
                                     </Col>
                                     <Col sm={12} md={12} lg={6} style={{ marginBottom: 50 }}>
-                                        <div style={{ paddingTop: 120 }}>
+                                        <div style={{ paddingTop: 50 }}>
                                             <img
                                                 src={mainimg}
                                                 className="wow zoomIn"
@@ -145,7 +145,7 @@ class Banner extends React.Component {
                         </div>
                     </div >
                 </div >
-            </React.Fragment >
+           
         );
     }
 }

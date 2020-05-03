@@ -13,10 +13,6 @@ const data = {
                 text: "Break the ice with a neat bio and introduce new staff in a fun, friendly and professional way.",
             },
             {
-                subtitle: "Compliance Notices",
-                text: "Allow staff to view daily notices without clogging email inboxes.",
-            },
-            {
                 subtitle: "Training",
                 text: "Provide group training opportunities and refresh or upload new training videos easily",
             },
@@ -26,7 +22,11 @@ const data = {
             },
             {
                 subtitle: "Local Hotspots",
-                text: "Filter promotions for coffee spots and afterwork drink specials in the area.",
+                text: "Filter promotions for coffee spots and afterwork drink specials in the area",
+            },
+            {
+                subtitle: "Compliance Notices",
+                text: "Allow staff to view daily notices without clogging email inboxes.. ",
             },
         ],
         icon: "icofont-workers-group"
@@ -39,16 +39,8 @@ const data = {
                 text: "Display schedules that everyone can see and change them without printing.",
             },
             {
-                subtitle: "Social Media",
-                text: "Connect with learners and curate feeds for the campus environment",
-            },
-            {
-                subtitle: "Digital Directories",
-                text: "List classrooms, offices and halls and direct visitors with interactive maps.",
-            },
-            {
                 subtitle: "Infographics",
-                text: "Communicate data in an engaging, thought provoking and  visually stimulating format.",
+                text: "Communicate data in an engaging, thought provoking and  visually stimulating format ",
             },
             {
                 subtitle: "Imagery",
@@ -57,6 +49,14 @@ const data = {
             {
                 subtitle: "Lost & Founds",
                 text: "Upload pictures and a description and let everyone know ",
+            },
+            {
+                subtitle: "Social Media",
+                text: "Connect with learners and curate feeds for the campus environment",
+            },
+            {
+                subtitle: "Digital Directories",
+                text: "List classrooms, offices and halls and direct visitors with interactive maps. ",
             }
         ],
         icon: "icofont-education"
@@ -95,28 +95,28 @@ const data = {
         title: "Creating a brighter information network",
         content: [
             {
-                subtitle: "Key Performance Indicators",
-                text: "Show real time performance metrics to motivate staff and improve accountability",
+                subtitle: "Patient Experience ",
+                text: "Introduce patients to their health care professionals  to create a relaxed environment",
             },
             {
-                subtitle: "Introduce New Staff",
-                text: "Break the ice with a neat bio and introduce new staff in a fun, friendly and professional way.",
+                subtitle: "Advertise",
+                text: "Promote products or services directly or sell valuable advertising space",
             },
             {
-                subtitle: "Compliance Notices",
-                text: "Allow staff to view daily notices without clogging email inboxes.",
+                subtitle: "Emergency Alerts",
+                text: "Notify visitors and patients about emergencies with information on what to do",
             },
             {
-                subtitle: "Training",
-                text: "Provide group training opportunities and refresh or upload new training videos easily",
+                subtitle: "Staff Communication",
+                text: "Use internal displays to notify staff about patient statuses or general notices",
             },
             {
-                subtitle: "Promote Health",
-                text: "Share information a about mental and physical health to improve staff wellbeing",
+                subtitle: "Stand Out",
+                text: "Separate your practice from the competition and a build a trusted identity. ",
             },
             {
-                subtitle: "Local Hotspots",
-                text: "Filter promotions for coffee spots and afterwork drink specials in the area.",
+                subtitle: "Share Healthcare Information",
+                text: "Share useful information on disease prevention, medical procedures or general wellbeing ",
             },
         ],
         icon: "icofont-heart-beat"
@@ -125,28 +125,28 @@ const data = {
         title: "Making comfortable hotel stays more imaginative",
         content: [
             {
-                subtitle: "Key Performance Indicators",
-                text: "Show real time performance metrics to motivate staff and improve accountability",
+                subtitle: "Virtual Concierge",
+                text: "Quick, and efficient service where the human touch is not required",
             },
             {
-                subtitle: "Introduce New Staff",
-                text: "Break the ice with a neat bio and introduce new staff in a fun, friendly and professional way.",
+                subtitle: "Attractions",
+                text: "Highlight local attractions like parks, markets, events and restaurants. ",
             },
             {
-                subtitle: "Compliance Notices",
-                text: "Allow staff to view daily notices without clogging email inboxes.",
+                subtitle: "Showcase Property",
+                text: "Feature imagery and video of facilities and property grounds",
             },
             {
-                subtitle: "Training",
-                text: "Provide group training opportunities and refresh or upload new training videos easily",
+                subtitle: "Wayfinding",
+                text: "Direct customers to parking, reception, restaurants or recreation facilities",
             },
             {
-                subtitle: "Promote Health",
-                text: "Share information a about mental and physical health to improve staff wellbeing",
+                subtitle: "Value-add Information",
+                text: "Weather, news, exchange rates and more updated automatically",
             },
             {
-                subtitle: "Local Hotspots",
-                text: "Filter promotions for coffee spots and afterwork drink specials in the area.",
+                subtitle: "Safety & Security",
+                text: "Inform guests about safety and security alerts and clearly describe procedures  ",
             },
         ],
         icon: "icofont-gift"
@@ -155,29 +155,18 @@ const data = {
         title: "Cut Through The Noise. Make A Statement",
         content: [
             {
-                subtitle: "Key Performance Indicators",
-                text: "Show real time performance metrics to motivate staff and improve accountability",
+                subtitle: "Boost Traffic",
+                text: "Draw customers in with engaging and dynamic content",
             },
             {
-                subtitle: "Introduce New Staff",
-                text: "Break the ice with a neat bio and introduce new staff in a fun, friendly and professional way.",
+                subtitle: "Increase Reach",
+                text: "Show more products to more people around the clock",
             },
             {
-                subtitle: "Compliance Notices",
-                text: "Allow staff to view daily notices without clogging email inboxes.",
+                subtitle: "Brand Awareness",
+                text: "Introduce your brand to more people and make a lasting impression on consumers  ",
             },
-            {
-                subtitle: "Training",
-                text: "Provide group training opportunities and refresh or upload new training videos easily",
-            },
-            {
-                subtitle: "Promote Health",
-                text: "Share information a about mental and physical health to improve staff wellbeing",
-            },
-            {
-                subtitle: "Local Hotspots",
-                text: "Filter promotions for coffee spots and afterwork drink specials in the area.",
-            },
+           
         ],
         icon: "icofont-ui-home"
     },
@@ -185,28 +174,28 @@ const data = {
         title: "Satisfy a bigger appetite for a better experience.",
         content: [
             {
-                subtitle: "Key Performance Indicators",
-                text: "Show real time performance metrics to motivate staff and improve accountability",
+                subtitle: "Drive Sales",
+                text: "Display menu items in a more visually engaging format",
             },
             {
-                subtitle: "Introduce New Staff",
-                text: "Break the ice with a neat bio and introduce new staff in a fun, friendly and professional way.",
+                subtitle: "Reduce Costs",
+                text: "No need to constantly print menus and promotional material",
             },
             {
-                subtitle: "Compliance Notices",
-                text: "Allow staff to view daily notices without clogging email inboxes.",
+                subtitle: "Increase efficiency",
+                text: "Automatically schedule menu changes for breakfast, lunch and dinner",
             },
             {
-                subtitle: "Training",
-                text: "Provide group training opportunities and refresh or upload new training videos easily",
+                subtitle: "Improve Waiting",
+                text: "Entertain customers while they wait to improve the waiting experience.",
             },
             {
-                subtitle: "Promote Health",
-                text: "Share information a about mental and physical health to improve staff wellbeing",
+                subtitle: "Optimize Drive-Thru",
+                text: "Highlight the most popular items and specials to reduce ordering times and increase service volume.",
             },
             {
-                subtitle: "Local Hotspots",
-                text: "Filter promotions for coffee spots and afterwork drink specials in the area.",
+                subtitle: "Engage",
+                text: "Let customers know about company initiatives and sustainability practices.",
             },
         ],
         icon: "icofont-restaurant"
@@ -215,28 +204,28 @@ const data = {
         title: "Re-imAGINE the retail environment.",
         content: [
             {
-                subtitle: "Key Performance Indicators",
-                text: "Show real time performance metrics to motivate staff and improve accountability",
+                subtitle: "Inform, Entertain and Sell",
+                text: "Tailor-make content to perform various functions ",
             },
             {
-                subtitle: "Introduce New Staff",
-                text: "Break the ice with a neat bio and introduce new staff in a fun, friendly and professional way.",
+                subtitle: "Flexibility",
+                text: "Update products and pricing immediately, with ease",
             },
             {
-                subtitle: "Compliance Notices",
-                text: "Allow staff to view daily notices without clogging email inboxes.",
+                subtitle: "Improve Customer Experience  ",
+                text: "Combine relevant information with captivating content and improve customer retention. ",
             },
             {
-                subtitle: "Training",
-                text: "Provide group training opportunities and refresh or upload new training videos easily",
+                subtitle: "Target Items",
+                text: "Provide key product information to increase sales on specific items",
             },
             {
-                subtitle: "Promote Health",
-                text: "Share information a about mental and physical health to improve staff wellbeing",
+                subtitle: "Enhance Image",
+                text: "Create a lasting impression with professional and engaging brand content. ",
             },
             {
-                subtitle: "Local Hotspots",
-                text: "Filter promotions for coffee spots and afterwork drink specials in the area.",
+                subtitle: "Queue Management  ",
+                text: "Reduce real and perceived waiting times and improve customer satisfaction",
             },
         ],
         icon: "icofont-basket"
@@ -266,8 +255,8 @@ class CoreFeatures extends React.Component {
                                                 <div className="icon">
                                                     <i className={data[this.props.slug]["icon"]} style={{fontSize: "40px"}}></i>
                                                 </div>
-                                                <h3>{cell.subtitle}</h3>
-                                                <p>{cell.text}</p>
+                                                <h3 >{cell.subtitle}</h3>
+                                                <p style={{marginTop:10}}>{cell.text}</p>
                                             </div>
                                         </div>
                                     </div>

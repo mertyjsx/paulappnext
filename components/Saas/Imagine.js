@@ -10,8 +10,8 @@ import Customise from "../../images/customise.svg"
 const Imagıne = () => {
 
     return (
-        <div style={{backgroundColor:"#f0f3f5"}} className="backg">
-        <div className="hero-content container imagines" >
+        <div style={{backgroundColor:"#f0f3f5"}} className="backg  imagines">
+        <div className="hero-content  container" >
             <div style={{ width: "80%", margin: "0 auto", textAlign: "center", marginTop: 50 }}><h2 className={"response"}>Imagine a Platform That Does it All</h2></div>
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import {Button} from "@material-ui/core"
-
+import Link from 'next/link';
 
 export default function SimplePaper() {
 
@@ -21,9 +21,12 @@ export default function SimplePaper() {
 Get in touch! 
 </p>
 <div className="flexcontainer" style={{width:"100%",justifyContent:"center",textAlign:"center",alignItems:"center"}}>
-<Button variant="contained" color="secondary" size="medium" style={{width:"30%",marginTop:20,marginBottom:20}}>
+
+<Link href="/contact">
+<Button component={"a"} variant="contained"  size="medium" style={{width:"30%",marginTop:20,marginBottom:20,textTransform:"none",backgroundColor:"#FB6520",color:"white"}}>
     Contact
 </Button>
+</Link>
 </div>
 
 </div>

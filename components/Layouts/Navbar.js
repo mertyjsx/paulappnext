@@ -156,8 +156,8 @@ class Navbar extends React.Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link activeClassName="active" href="/features">
-                                                <a className="nav-link">Features</a>
+                                            <Link activeClassName="active" href="/software">
+                                                <a className="nav-link">Software</a>
                                             </Link>
                                         </li>
 
@@ -276,8 +276,8 @@ class Navbar extends React.Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link activeClassName="active" href="/pricing">
-                                                <a className="nav-link">Pricing</a>
+                                            <Link activeClassName="active" href="/licence">
+                                                <a className="nav-link">Licence</a>
                                             </Link>
                                             {/* <ul className="dropdown_menu">
                                                 <li>

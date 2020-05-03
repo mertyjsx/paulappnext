@@ -25,7 +25,7 @@ const Dash = () => {
                 </Col>
                 <Col md={12} lg={6}  style={{justifyContent:"center" , alignContent:"center"}}>
                 <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
-                <h2 className="settitle" style={{textAlign:"start",paddingRight:20,paddingLeft:20,fontSize:"2rem"}}>Get Started With Your Own Dash Board</h2>
+                <h2 className="settitle" style={{textAlign:"start",paddingRight:20,paddingLeft:20,fontSize:"2rem"}}>Get started with your own dashboard</h2>
 
                 </div>
                   
@@ -40,36 +40,36 @@ const Dash = () => {
                     <Row style={{flexDirection:"column",justifyContent:"center",padding:"auto"}}>
                     <Row   style={{marginTop: 20 ,justifyContent:"start" , alignContent:"center",paddingRight:30,paddingLeft:55}}>
 
-                        <Col xs={1} style={{justifyContent:"center" , alignContent:"center"}}>
+                      
 
 
-                            <FaCheck style={{ alignItems:"center", fontSize: 13}}></FaCheck>
+                            <FaCheck  style={{alignItems:"center", fontSize: 15,marginTop:3 ,marginRight:10}}></FaCheck>
 
-                        </Col>
-                        <Col xs={8} style={{display:"flex", alignItems:"center"}} className={"apart"}><p>Login from anywhere in the world
-</p></Col>
-
-                    </Row>
-                    <Row style={{ marginTop: -13,justifyContent:"start" , alignContent:"center",paddingRight:30,paddingLeft:55}}>
-
-                        <Col xs={1} style={{justifyContent:"center" , alignContent:"center"}}>
-
-                            <FaCheck style={{alignItems:"center", fontSize: 13,height:"100%" }}></FaCheck>
-
-                        </Col>
-                        <Col  xs={8} style={{display:"flex", alignItems:"center"}} className={"apart"}><p>Manage your subscriptions
-</p></Col>
+               
+                       <p>Login from anywhere in the world
+</p>
 
                     </Row>
-                    <Row style={{ marginTop: -13,justifyContent:"start" , alignContent:"center",paddingRight:30,paddingLeft:55}}>
+                    <Row style={{ marginTop: 10,justifyContent:"start" , alignContent:"center",paddingRight:30,paddingLeft:55}}>
 
-<Col xs={1} style={{justifyContent:"center" , alignContent:"center"}}>
+                      
 
-    <FaCheck style={{alignItems:"center", fontSize: 13,height:"100%" }}></FaCheck>
+                            <FaCheck  style={{alignItems:"center", fontSize: 15,marginTop:3 ,marginRight:10}}></FaCheck>
 
-</Col>
-<Col  xs={8} style={{display:"flex", alignItems:"center"}}>
-                    <p> Monitor and manage your screens and content displayed</p></Col>
+                     
+                   <p>Manage your subscriptions
+</p>
+
+                    </Row>
+                    <Row style={{ marginTop: 10,justifyContent:"start" , alignContent:"center",paddingRight:30,paddingLeft:55,}}>
+
+
+
+    <FaCheck style={{alignItems:"center", fontSize: 15,marginTop:3 ,marginRight:10}}></FaCheck>
+
+
+
+                    <p>Monitor and manage your screens and content</p>
 
 </Row>
                     </Row>
@@ -98,7 +98,7 @@ const Dash = () => {
                 </Row>
                 
                    
-                        <p style={{paddingRight:20,paddingLeft:20,alignItems:"center"}}>Follow the installation prompts and link your displays to your dashboard
+                        <p style={{paddingRight:20,paddingLeft:20,alignItems:"center",color:"black"}}>Follow the installation prompts and link your displays to your dashboard
 
 </p>
                     
@@ -159,7 +159,7 @@ const Dash = () => {
                   
 
                       
-                        <p style={{paddingRight:20,paddingLeft:20,alignItems:"center"}}>Imagine was built for the end users and includes specific industry related features. A robust and versatile application accessible to all sectors.
+                        <p style={{paddingRight:20,paddingLeft:20,alignItems:"center",color:"black"}}>Imagine was built for the end users and includes specific industry related features. A robust and versatile application accessible to all sectors.
 
  </p>
                 <Row style={{justifyContent:"center",flexDirection:"column"}}>

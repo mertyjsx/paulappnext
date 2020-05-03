@@ -328,7 +328,7 @@ font-size: 1.5rem;
   }
   @media screen and (min-width: 1400px) {
     .bigscreen{
-        margin-bottom: 250px !important;
+        margin-bottom: 100px !important;
     }
   }
   @media screen and (min-width: 1400px) {
@@ -494,7 +494,7 @@ font-weight: 400;
     }
   }
   .cardmb{
-margin-bottom: 120px;
+margin-bottom: 150px;
 
   }
   @media screen and (max-width: 600px) {
@@ -529,7 +529,7 @@ background-size: inherit !important;
   } 
   @media screen and (min-width: 1400px) {
     .imagines{
-        margin-top: 250px !important;
+        margin-top: 100px !important;
     }
   }
   .flexcontainerrow{
