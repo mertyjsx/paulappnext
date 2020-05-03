@@ -493,6 +493,32 @@ font-weight: 400;
      
     }
   }
+  .cardmb{
+margin-bottom: 120px;
+
+  }
+  @media screen and (max-width: 600px) {
+    .freeres{
+    
+    margin-right: 20px;
+    margin-left: 10px;
+     
+    }
+.featureres{
+padding-right: 50px;
+
+background-size: inherit !important;
+
+}
+.cardmb{
+  margin-bottom: 0px;
+}
+.ourmb{
+  margin-bottom: 30px;
+}
+  }
+
+
   @media screen and (max-width: 800px) {
     .backg{
     

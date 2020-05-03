@@ -82,15 +82,15 @@ class Banner extends React.Component {
 
                                             </div>
                                             <div className="flexcontainerrow" style={{ justifyContent: "start",width:"90%" }}>
-                                                <div className="flexcontainerrow" style={{ justifyContent: "start", marginTop: 40 }}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
+                                                <div className="flexcontainerrow " style={{ justifyContent: "start", marginTop: 40 }}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
 
                                                     <div style={{ fontSize: 15 }}>14-day free trial</div>
                                                 </div>
-                                                <div className="flexcontainerrow" style={{ justifyContent: "start", marginTop: 40 ,paddingLeft:5}}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
+                                                <div className="flexcontainerrow freeres" style={{ justifyContent: "start", marginTop: 40 ,paddingLeft:5}}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
 
                                                     <div style={{ fontSize: 15 }}>No credit card</div>
                                                 </div>
-                                                <div className="flexcontainerrow" style={{ justifyContent: "start", marginTop: 40 }}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
+                                                <div className="flexcontainerrow " style={{ justifyContent: "start", marginTop: 40 }}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
 
                                                     <div style={{ fontSize: 15 }}>No contracts</div>
                                                 </div>

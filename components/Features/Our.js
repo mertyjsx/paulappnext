@@ -30,7 +30,7 @@ const images=[img,img2]
 
                 </div>
                 <Row>
-                    <Col lg={4} md={4} style={{ paddingRight: 30, }}
+                    <Col lg={4} md={4} style={{ paddingRight: 30, }} className="ourmb"
                     >
 
                         <Col className={hover && "hoverorange"} onMouseOver={() => sethover(true)} style={{  paddingTop: 15 ,paddingBottom:15}}>

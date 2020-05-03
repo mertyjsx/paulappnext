@@ -38,7 +38,7 @@ React.useEffect(() => {
         <div className="container">
             <Row>
 
-                <Col>
+                <Col lg={6}>
 {images.map((item)=>(
 
 <img src={item} alt="" style={{width:current===item?"100%":0}}></img>
@@ -46,7 +46,7 @@ React.useEffect(() => {
 
                    
                 </Col>
-                <Col>
+                <Col lg={6}>
                     <Row>
 
                         <Col className="hovertv" onClick={()=>set(img1)

@@ -10,7 +10,7 @@ import Logo3 from "../../images/secure and reliable.svg"
 
 
     return(
-        <div className="container" style={{marginBottom:150}}>
+        <div className="container cardmb" >
 
        <Grid container >
 <Grid md={4}lg={4} sm={6} xs={6} className="flexcontainer cardhover flexcontainerrelative cardm borderhover"  style={{justifyContent:"start"}}>
