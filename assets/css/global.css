@@ -356,6 +356,14 @@ font-size: 1.5rem;
         font-size: 1.5rem !important;
     }
   }
+
+  .hovertv:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+  
   @media screen and (min-width: 800px) {
     .response{
         font-size: 2rem !important;
@@ -365,7 +373,7 @@ font-size: 1.5rem;
   }
   @media screen and (min-width: 800px) {
     .response2{
-        font-size: 2rem !important;
+        font-size: 2rem ;
     }
   } @media screen and (max-width: 800px) {
     .response2{
@@ -547,8 +555,8 @@ margin:10px;
 .buttonorta{
 display:flex;
 justify-content: center;
-padding: 30px;
-
+padding-bottom: 20px;
+padding-top: 10px;
 }
 .cardimagesm{
 width: 80% !important;

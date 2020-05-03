@@ -20,7 +20,7 @@ class TrustLogo extends Component {
         .then(response => {
             if (response.data.length > 0) {
                 this.setState({ all_clients : response.data });
-                this.setState({clients_to_show: this.state.all_clients.slice(0, this.state.clients_show * 4)});
+                this.setState({clients_to_show: this.state.all_clients});
             }
         })
         .catch((error) => {
@@ -51,7 +51,7 @@ class TrustLogo extends Component {
                     <div className="row">
                         {
                             this.state.clients_to_show.map( client => (
-                                <div className="col-lg-3 col-md-4" key= {client._id}>
+                                <div className="col-lg-3 col-md-4" key= {client._id} style={{marginBottom:30}}>
                                     <div className="single-trust-logo">
                                         <img data-src={config.SERVER_BASE_URL + client.imageurl} alt="logo" className="lazyload" />
                                     </div>
@@ -160,9 +160,7 @@ class TrustLogo extends Component {
                             <p className="trust-logo-letter">A better read on driving revenue</p>
                         </div> */}
                     </div>
-                    <div className="row justify-content-center py-2">
-                        <button onClick={ (e) => this.loadMoreClients() } className="btn btn-primary">View more</button>
-                    </div>
+                   
                 </div>
             </section>
         );

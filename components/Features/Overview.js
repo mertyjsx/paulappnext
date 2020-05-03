@@ -22,12 +22,12 @@ class Overview extends Component {
 
     render() {
         return (
-            <section className="overview-section ptb-100 bg-gray">
+            <section className="overview-section ptb-100 bg-gray" style={{marginBottom:50}}>
                 <div className="container">
                     <div className="overview-box">
                         <div className="row h-100 justify-content-center align-items-center">
                             <div className="col-lg-6 col-md-6 overview-content">
-                                <div style={{fontSize: "24px"}} className="mb-4">Content that displays perfectly on any size <br />or type of display, without any fuss.</div>
+                                <h2 style={{ textAlign: "start",fontSize: "2rem" }}>Content that will display perfectly on all screen sizes.</h2>
                                 <p>Select a custom resolution or aspect ratio in both portrait or landscape formats. Imagine software works flawlessly with every display from low-res, HD and 4k screens to 8k projectors and beyond.</p>
 
                                 <div> {/*  className="feature-display-inline">*/}
@@ -64,11 +64,18 @@ class Overview extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <p className="text-center mt-4" style={{color: "#FB6520"}}>Click icons above</p>
+     
                             </div>
 
+
                             <div className="col-lg-6 col-md-6 overview-img">
-                                <img data-src={this.state.contentImg[this.state.contentImgCur]} alt="image" className="lazyload" />
+
+                            {this.state.contentImg.map((item,index)=>(
+
+<img src={item} alt="image"  style={{width:this.state.contentImgCur==index?"100%":0}}/>
+
+                            ))}
+                               
                             </div>
                         </div>
                     </div>

@@ -79,10 +79,10 @@ class LoginBody extends Component {
                     <div className="row h-100 justify-content-center align-items-center">
 
 
-                        <div className="col-lg-6 col-md-12">
+                        <div className="col-lg-6 col-md-12" >
                            
-                            <div className="login-form">
-                            <div className="flexcontainer" style={{ padding: 50 }}>
+                            <div className="login-form" style={{height:700}} >
+                            <div className="flexcontainer" style={{ padding:10,width:200,marginBottom:30 }}>
 
 
 <img src={logo}></img>
@@ -151,7 +151,7 @@ class LoginBody extends Component {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="flexcontainer" style={{padding:20}}>
+                                    <div className="flexcontainer" style={{padding:10}}>
 <p style={{fontSize:15}} > Dont have an account ? <a style={{color:"#FB6520"}}>Register here</a></p>
 
                                     </div>

@@ -4,22 +4,22 @@ import Navbar from '../components/Layouts/Navbar';
 import Footer from '../components/Layouts/Footer';
 import Our from "../components/Features/Our"
 import All from "../components/Features/All"
-import FeaturesTop from '../components/Features/FeaturesTop';
+
 import ourimg1 from "../images/features/play.png"
 import ourimg2 from "../images/features/dash.png"
 import ourimg3 from "../images/features/All/Q.png"
 import ourimg4 from "../images/features/All/Overlay.png"
-import FeaturesContent from '../components/Features/FeaturesContent';
+
 import Overview from '../components/Features/Overview';
 // import Platform from '../components/Features/Platform';
 import Htext from "../components/Features/yazı"
 import Bar from "../components/Features/Bar"
 import Multi from "../components/Features/Multicard"
 import CtaCard from '../components/Saas/CtaCard';
-import ClientFeedback from '../components/Saas/ClientFeedback';
+
 import GalleryContent from '../components/Saas/GalleryContent';
 import Cards from "../components/Features/Cardsforfetaure"
-import Myover from "../components/Features/Myoverview"
+
 class Features extends Component {
     render() {
         return (
@@ -40,7 +40,8 @@ class Features extends Component {
                 ></Our>
                 <CtaCard />
                 <All></All>
-                <Myover></Myover>
+             
+                <Overview></Overview>
                  <Our
                     title={"Industry Specific Premium Features"}
                     p={"Constantly adjusting and improving for industry needs"}
@@ -53,8 +54,9 @@ class Features extends Component {
                  
                  
                  ></Our>
-             <Htext></Htext>
+            
              <div className="features-area">
+             <Htext></Htext>
              <Multi from={0} to={4}></Multi>
              </div>
                 {/* <Platform /> */}

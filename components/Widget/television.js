@@ -57,9 +57,9 @@ React.useEffect(() => {
                         <Col className="hovertv" onClick={()=>set(img2)}> <img src={im2} alt=""></img></Col>
 
                     </Row>
-                    <Row>
+                    <Row >
 
-                        <Col className="hovertv" onClick={()=>set(img3)}>
+                        <Col className="hovertv hover14" onClick={()=>set(img3)}>
                             <img src={im3} alt=""></img>
                         </Col>
                         <Col className="hovertv" onClick={()=>set(img4)}> <img src={im4} alt=""></img></Col>

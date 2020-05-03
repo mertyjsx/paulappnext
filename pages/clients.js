@@ -19,7 +19,7 @@ class PricingOne extends Component {
 
                 <TrustLogo />
 
-                <HardwarePartners />
+             
 
                 <CtaCard />
                 <Footer />

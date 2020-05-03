@@ -83,7 +83,7 @@ console.log(
             )
   return (
     <Row style={{ marginTop: 70,marginBottom:70 }}>
-    <Col md={12} lg={6} style={{ paddingTop: 50 }}>
+    <Col md={12} lg={6} style={{ paddingTop: 100,display:"flex",alignItems:"center"}}>
 {
 Arrayimages.map((item)=>(
   <img src={item} alt="" style={{width:current===item?"100%":0}}></img>))

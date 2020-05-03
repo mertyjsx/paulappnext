@@ -45,7 +45,7 @@ class ServiceContent extends Component {
                     <div className="section-title">
                         <h2>Free additional content widgets</h2>
                         <div className="bar"></div>
-                        <p>Make the most of powerful zero cost content</p>
+                        <p> Feeds update as and when new data is available</p>
                     </div>
 
                     <div className="woocommerce-topbar">
@@ -56,22 +56,7 @@ class ServiceContent extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-3">
-                                <div className="woocommerce-topbar-ordering">
-                                    <form>
-                                        <div className="select-box">
-                                            <select className="form-control">
-                                                <option value="1">Sort by Popularity</option>
-                                                <option value="2">Sort by Average Rating</option>
-                                                <option value="0">Sort by Latest</option>
-                                                <option value="3">Sort by price: Low to High</option>
-                                                <option value="4">Sort by price: High to Low</option>
-                                                <option value="5">Sort by New</option>
-                                            </select>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
+                           
                             <div className="sidebar-area col-lg-3 col-md-3">
                                 <div className="widget widget-search">
                                     <form>

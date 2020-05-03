@@ -51,7 +51,7 @@ render(){
                                                 </div>
                                             </div>
                                             <div className="text-center">
-                                                <h3>{feature.title}</h3>
+                                                <h3 style={{margin:20}}>{feature.title}</h3>
                                                 <p>{feature.text}</p>
                                             </div>
                                         </div>

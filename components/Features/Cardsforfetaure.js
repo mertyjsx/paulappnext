@@ -28,9 +28,7 @@ import Logo3 from "../../images/secure and reliable.svg"
 
 </p>
 
-<Button variant="contained" style={{backgroundColor:"#FB6520",color:"white"}} className="buttonab">
-                         Overview
-                         </Button>
+
 
 </div>
 
@@ -53,9 +51,7 @@ import Logo3 from "../../images/secure and reliable.svg"
 <p  style={{color:"black"}} className="hoverp">Hosted on secure servers with 99.9% daily uptime and secured with a 2-tier password authentication.
 
 </p>
-<Button variant="contained" style={{backgroundColor:"#FB6520",color:"white"}} className="buttonab">
-                         LG setup
-                         </Button>
+
 </div>
 
 
@@ -74,9 +70,7 @@ import Logo3 from "../../images/secure and reliable.svg"
 <p  style={{color:"black"}} className="hoverp">There are zero limitations to Imagines capabilities, with custom features added frequently to specific industry needs.
 
 </p>
-<Button variant="contained" style={{backgroundColor:"#FB6520",color:"white"}} className="buttonab">
-                      Shop now
-                         </Button>
+
 </div>
 
 

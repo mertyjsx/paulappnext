@@ -11,12 +11,12 @@ import Bar from "../components/Features/Bar"
 import Cards from "../components/Widget/newCard"
 import Ex from "../components/Features/exten"
 
-import dash1 from "../images/ex1.png"
+import dash1 from "../images/widgets/1.png"
 
-import dash2 from "../images/ex2.png"
-import dash3 from "../images/ex3.png"
-import dash4 from "../images/ex4.png"
-import dash5 from "../images/ex5.png"
+import dash2 from "../images/widgets/2.png"
+import dash3 from "../images/widgets/3.png"
+import dash4 from "../images/widgets/4.png"
+import dash5 from "../images/widgets/5.png"
 
 
 
@@ -58,13 +58,13 @@ class Widgets extends Component {
 
                 ></Title>
 
-                <div className="container" style={{ marginBottom: 100,padding:100 }}>
+                <div className="container" style={{ marginBottom: 100,padding:30 }}>
 
                     <img src={Widgetimages}></img>
                 </div>
 
                 <Title
-                    title={"Popular feeds setup and ready to go"}
+                    titlesmall={"Popular feeds setup and ready to go"}
 
                 ></Title>
 
@@ -94,7 +94,7 @@ img4={dash4}
 img5={dash5}
 ></Ex>    
 <div style={{marginTop:100}}></div>
-<Bar title={"Free additional content widgets"} ></Bar>
+
                 </div>
           
 <Cards></Cards>            

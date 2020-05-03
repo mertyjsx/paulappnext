@@ -3,7 +3,7 @@ import {Button} from "@material-ui/core"
 import { Row, Col } from "react-bootstrap"
 
 import logo2 from "../../images/Cards/LG.png"
-import logo3 from "../../images/Cards/Hardware.png"
+import logo3 from "../../assets/back/home/hard.png"
 import logo1 from "../../images/Cards/Software (1).png"
 
 
@@ -36,11 +36,12 @@ const Cards = () => {
                             <h4 style={{marginBottom:10,marginTop:5}}>Software
 
 </h4>
-                            <p className="responsecardp">Digital Signage software which manages your and controls your screens
+                            <p className="responsecardp">Digital Signage software which manages your screens and controls your  content displayed.
+
 
 </p>
                           
-<Button variant="contained" style={{backgroundColor:"#FB6520",color:"white",marginTop:10}}>
+<Button variant="contained" style={{backgroundColor:"#FB6520",color:"white",marginTop:35,textTransform:"none"}}>
                          Overview
                          </Button>
                         </div>
@@ -54,10 +55,11 @@ const Cards = () => {
                         <img src={logo2} alt="" className="imglogo" ></img>
                             <h4 style={{marginBottom:10,marginTop:5}}>All in ONE
 </h4>
-                            <p className="responsecardp">Screens with on-board media players and pre-installed Imagine signage software for instant launch
+                            <p className="responsecardp">LG Digital Signage screens with on-board media players, pre-installed Imagine for instant launch.
+
 </p>
                             
-<Button variant="contained" style={{backgroundColor:"#FB6520",color:"white",marginTop:10}}>
+<Button variant="contained" style={{backgroundColor:"#FB6520",color:"white",marginTop:10,textTransform:"none"}}>
                          LG Setup
                          </Button>
 
@@ -70,10 +72,11 @@ const Cards = () => {
                         <img src={logo3} alt="" className="imglogo"></img>
                             <h4 style={{marginBottom:10,marginTop:5}}>Hardware
 </h4>
-                            <p className="responsecardp">Don’t yet have hardware? Shop online from tried and tested local and international brands
+                            <p className="responsecardp">Don’t yet have hardware? Shop online from a selection of media players, screens and accessories.
+
 </p>
 
-<Button variant="contained" style={{backgroundColor:"#FB6520",color:"white",marginTop:10}}>
+<Button variant="contained" style={{backgroundColor:"#FB6520",color:"white",marginTop:35,textTransform:"none"}}>
                          Shop Now
                          </Button>
                         </div>

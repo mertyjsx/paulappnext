@@ -60,7 +60,7 @@ class Partner extends React.Component {
                             <h3 className="pb-3" style={{fontSize:"2rem",margin:40}} >Informative, educational, functional and entertaining content widgets.</h3>
                             <p>Boost your content loop with our awesome content widget partners. Select from a range of free news, social and informational feeds, or shop from our premium store for flight arrivals and specialized feeds.</p>
                             <Link href="/widgets" >
-                            <Button variant="contained" style={{backgroundColor:"#FB6520",color:"white",marginTop:50}}>
+                            <Button variant="contained" style={{backgroundColor:"#FB6520",color:"white",marginTop:50,textTransform:"none"}} component={"a"}>
                          See Our Widgets
                          </Button>
                             </Link>
@@ -79,8 +79,8 @@ class Partner extends React.Component {
                             className="partner-slides owl-carousel owl-theme"
                             {...options}
                         >
-                            <div className="col-lg-12">
-                                <div className="item item-partner">
+                            <div className="col-lg-12" >
+                                <div className="item item-partner" style={{backgroundColor:"white"}}>
                                     <Link>
                                         <a><img src={require('../../images/partner/partner-1-sm.png')} alt="partner" /></a>
                                     </Link>
@@ -88,7 +88,7 @@ class Partner extends React.Component {
                             </div>
 
                             <div className="col-lg-12">
-                                <div className="item item-partner">
+                                <div className="item item-partner" style={{backgroundColor:"white"}}>
                                     <Link>
                                         <a><img src={require('../../images/partner/partner-2-sm.jpg')} alt="partner" /></a>
                                     </Link>
@@ -96,7 +96,7 @@ class Partner extends React.Component {
                             </div>
 
                             <div className="col-lg-12">
-                                <div className="item item-partner">
+                                <div className="item item-partner" style={{backgroundColor:"white"}}>
                                     <Link>
                                         <a><img src={require('../../images/partner/partner-3-sm.jpg')} alt="partner" /></a>
                                     </Link>
@@ -104,7 +104,7 @@ class Partner extends React.Component {
                             </div>
 
                             <div className="col-lg-12">
-                                <div className="item item-partner">
+                                <div className="item item-partner" style={{backgroundColor:"white"}}>
                                     <Link>
                                         <a><img src={require('../../images/partner/partner-4-sm.jpg')} alt="partner" /></a>
                                     </Link>

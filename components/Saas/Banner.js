@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import {Button} from "@material-ui/core"
-import { FaWindows, FaApple, FaFacebook ,FaCheck} from "react-icons/fa"
+import { Button } from "@material-ui/core"
+import { FaWindows, FaApple, FaCheck, FaAndroid } from "react-icons/fa"
+import logo2 from "../../images/LGlogo.svg"
+import { FcLinux } from "react-icons/fc"
 import { Row, Col } from "react-bootstrap"
 import img1 from "../../images/1.png"
 import img2 from "../../images/2.png"
@@ -36,67 +38,69 @@ class Banner extends React.Component {
 
                                     <Col sm={12} md={12} lg={6} >
                                         <div className="hero-content pl-4 ">
-                                            <h1 className="response2">Anything Is Possible With Imagine Digital Signage Software</h1>
-                                
-                                            <p>Take control of your screens! It’s easy to install and even easier to manage. Try Imagine for free today.</p>
-                                            <div className="flexcontainerrow" style={{justifyContent:"start"}}>
+                                            <h1 className="response2 " style={{ fontSize: 50 }}>Anything Is Possible With <span style={{ color: "#FB6520" }}>Imagine</span> Digital Signage </h1>
 
-                                            <div style={{margin:10,  padding: "auto", fontSize: 30 }}><FaFacebook style={{color:"#4267B2"}}></FaFacebook></div>
-                                                <div style={{margin:10, padding: "auto", fontSize: 30 }}><FaWindows style={{color:"#0177D7"}}></FaWindows></div>
-                                                <div style={{ margin:10, padding: "auto", fontSize: 30,alignItems:"center",display:"flex" }}><FaApple></FaApple></div>
+                                            <p style={{ fontSize: 20 ,marginBottom:10}}>Take control of your screens! It’s easy to install and even easier to manage. Try Imagine for free today.</p>
+                                            <div className="flexcontainerrow" style={{ justifyContent: "start" }}>
+
+                                                <div style={{ margin: 20, padding: "auto", fontSize: 40 }}><FcLinux ></FcLinux></div>
+                                                <img src={logo2} style={{ width: 80 }}></img>
+                                                <div style={{ margin: 20, padding: "auto", fontSize: 40, alignItems: "center", display: "flex", color: "#32DE84" }}><FaAndroid></FaAndroid></div>
 
 
                                             </div>
-                                         
-                                            <div className={"flexcontainerrow" } style={{justifyContent:"start",marginTop:20,marginBottom:20}}>
-                                         
+
+                                            <div className={"flexcontainerrow"} style={{ justifyContent: "start", marginTop: 20, marginBottom: 20 }}>
+
+
+                                            <Link href="/signup/">
+                                                    <Button variant="contained" style={{ backgroundColor: "#FB6520", color: "white", marginRight: 30 }} size="large" component="a"> 
+                                                        <div style={{ display: "flex", flexDirection: "column", textTransform: "none" }} >
+                                                       
+                                                            <div>Start Trial</div>
+                                                            
+
+                                                        </div>
+
+                                                    </Button>
+                                                    </Link>
+
                                                
-                                                <Link href="/signup/">
-                                                <Button variant="contained" style={{backgroundColor:"#FB6520",color:"white",marginRight:30}} size="large">
-                         <div style={{display:"flex",flexDirection:"column"}}>
+                                                <Link href="/contact/">
+                                                    <Button variant="contained" style={{ backgroundColor: "#FB6520", color: "white" }} size="large" component="a">
+                                                        <div style={{ display: "flex", flexDirection: "column", textTransform: "none" }}>
 
-                         <div>START TRIAL</div>
+                                                            <div >Book Trial</div>
 
 
-                         </div>
-                    
-                         </Button>         
-                    
-                                              
+                                                        </div>
+
+                                                    </Button>
+
+
                                                 </Link>
-                                                <Link href="/signup/">
-                                                <Button variant="contained" style={{backgroundColor:"#FB6520",color:"white"}} size="large">
-                         <div style={{display:"flex",flexDirection:"column"}}>
-
-                         <div>BOOM DEMO</div>
-
-
-                         </div>
-                    
-                         </Button>         
-                    
-                                              
-                                                </Link>
-                                       
-                                        </div>
-                                        <div className="flexcontainerrow" style={{justifyContent:"start"}}>
-                                             <div className="flexcontainerrow" style={{justifyContent:"start"}}> <FaCheck style={{margin:4,alignItems:"center", fontSize: 13 }}></FaCheck>
-                                             
-                                             <div style={{fontSize:13}}>14-day free trial</div>
-                                             </div>
-                                             <div className="flexcontainerrow" style={{justifyContent:"start"}}> 
-                                             <FaCheck style={{margin:4,alignItems:"center", fontSize: 13 }}></FaCheck>
-                                             <div style={{fontSize:13}}>No credit card</div>
-                                             </div>
-                                             <div className="flexcontainerrow" style={{justifyContent:"start"}}>  <FaCheck style={{margin:4,alignItems:"center", fontSize: 13 }}></FaCheck>
-                                             <div style={{fontSize:13}}>No contracts</div>
-                                             </div>
-                                             </div>      
 
                                             </div>
+                                            <div className="flexcontainerrow" style={{ justifyContent: "start",width:"90%" }}>
+                                                <div className="flexcontainerrow" style={{ justifyContent: "start", marginTop: 40 }}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
+
+                                                    <div style={{ fontSize: 15 }}>14-day free trial</div>
+                                                </div>
+                                                <div className="flexcontainerrow" style={{ justifyContent: "start", marginTop: 40 ,paddingLeft:5}}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
+
+                                                    <div style={{ fontSize: 15 }}>No credit card</div>
+                                                </div>
+                                                <div className="flexcontainerrow" style={{ justifyContent: "start", marginTop: 40 }}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
+
+                                                    <div style={{ fontSize: 15 }}>No contracts</div>
+                                                </div>
+                                
+                                            </div>
+
+                                        </div>
                                     </Col>
                                     <Col sm={12} md={12} lg={6} style={{ marginBottom: 50 }}>
-                                        <div >
+                                        <div style={{ paddingTop: 120 }}>
                                             <img
                                                 src={mainimg}
                                                 className="wow zoomIn"
@@ -108,23 +112,23 @@ class Banner extends React.Component {
                                     </Col>
                                 </Row>
                                 <Row style={{ marginTop: 120, marginBottom: 100 }} style={{ width: "100%", margin: "0 auto", textAlign: "center", marginTop: 50 }}>
-                                    <Col lg={2} md={4} sm={4}  xs={4}>
+                                    <Col lg={2} md={4} sm={4} xs={4}>
                                         <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img1} alt=""></img></div>
 
 
                                     </Col>
 
-                                    <Col lg={2} md={4} sm={4}  xs={4}>
+                                    <Col lg={2} md={4} sm={4} xs={4}>
                                         <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img2} alt=""></img></div>
 
                                     </Col>
 
-                                    <Col lg={2} md={4} sm={4}  xs={4}>
+                                    <Col lg={2} md={4} sm={4} xs={4}>
                                         <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img3} alt=""></img></div>
 
                                     </Col>
 
-                                    <Col lg={2} md={4} sm={4}  xs={4}>
+                                    <Col lg={2} md={4} sm={4} xs={4}>
 
                                         <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img4} alt=""></img></div>
                                     </Col>
@@ -132,7 +136,7 @@ class Banner extends React.Component {
 
                                         <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img5} alt=""></img></div>
                                     </Col>
-                                    <Col lg={2} md={4} sm={4}  xs={4}>
+                                    <Col lg={2} md={4} sm={4} xs={4}>
 
                                         <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img6} alt=""></img></div>
                                     </Col>
