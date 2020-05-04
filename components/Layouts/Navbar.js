@@ -161,11 +161,70 @@ class Navbar extends React.Component {
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                        <span className="newspan">New</span>
+                                        <span className="newspan">New*</span>
                                             <Link activeClassName="active" href="/allinone">
                                                
                                                 <a className="nav-link">All in one</a>
                                             </Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link activeClassName="active" href="/widgets">
+                                                <a className="nav-link">Widgets</a>
+                                            </Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link activeClassName="active" href="/licence">
+                                                <a className="nav-link">Licence</a>
+                                            </Link>
+                                            {/* <ul className="dropdown_menu">
+                                                <li>
+                                                    <Link activeClassName="active" href="/blog/blog-one">
+                                                        <a>Blog 1</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link activeClassName="active" href="/blog/blog-two">
+                                                        <a>Blog 2</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link activeClassName="active" href="/blog/blog-details">
+                                                        <a>Blog Details</a>
+                                                    </Link>
+                                                </li>
+                                            </ul> */}
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link activeClassName="active" href="/shop">
+                                                <a className="nav-link">Shop</a>
+                                            </Link>
+                                            {/* <ul className="dropdown_menu">
+                                                <li>
+                                                    <Link activeClassName="active" href="/shop-one">
+                                                        <a>Shop 1</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link activeClassName="active" href="/shop-two">
+                                                        <a><div className="icon text-center"><i className="icofont-shopping-cart"></i></div> Shop</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link activeClassName="active" href="/shop-details">
+                                                        <a>Shop Details</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link activeClassName="active" href="/cart">
+                                                        <a><div className="icon text-center"><i className="icofont-cart"></i></div> Cart</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link activeClassName="active" href="/checkout">
+                                                        <a><div className="icon text-center"><i className="icofont-checked"></i></div> Checkout</a>
+                                                    </Link>
+                                                </li>
+                                            </ul> */}
                                         </li>
 
 
@@ -214,11 +273,7 @@ class Navbar extends React.Component {
                                             </ul>
                                         </li>
 
-                                        <li className="nav-item">
-                                            <Link activeClassName="active" href="/widgets">
-                                                <a className="nav-link">Widgets</a>
-                                            </Link>
-                                        </li>
+                                       
 
                                         {/* <li className="nav-item">
                                             <Link activeClassName="active" href="#">
@@ -250,61 +305,8 @@ class Navbar extends React.Component {
 
                                         
                                         
-                                        <li className="nav-item">
-                                            <Link activeClassName="active" href="/shop">
-                                                <a className="nav-link">Shop</a>
-                                            </Link>
-                                            {/* <ul className="dropdown_menu">
-                                                <li>
-                                                    <Link activeClassName="active" href="/shop-one">
-                                                        <a>Shop 1</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link activeClassName="active" href="/shop-two">
-                                                        <a><div className="icon text-center"><i className="icofont-shopping-cart"></i></div> Shop</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link activeClassName="active" href="/shop-details">
-                                                        <a>Shop Details</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link activeClassName="active" href="/cart">
-                                                        <a><div className="icon text-center"><i className="icofont-cart"></i></div> Cart</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link activeClassName="active" href="/checkout">
-                                                        <a><div className="icon text-center"><i className="icofont-checked"></i></div> Checkout</a>
-                                                    </Link>
-                                                </li>
-                                            </ul> */}
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link activeClassName="active" href="/licence">
-                                                <a className="nav-link">Licence</a>
-                                            </Link>
-                                            {/* <ul className="dropdown_menu">
-                                                <li>
-                                                    <Link activeClassName="active" href="/blog/blog-one">
-                                                        <a>Blog 1</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link activeClassName="active" href="/blog/blog-two">
-                                                        <a>Blog 2</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link activeClassName="active" href="/blog/blog-details">
-                                                        <a>Blog Details</a>
-                                                    </Link>
-                                                </li>
-                                            </ul> */}
-                                        </li>
+                                       
+                                       
 
                                         <li className="nav-item"><a href="#" className="nav-link">Company</a>
                                             <ul className="dropdown_menu">

@@ -758,6 +758,7 @@ margin-top: 35px !important;
 @media screen and (min-width: 800px) {
   .newspan{
     position: absolute;
+    font-size: 13px;
     left: 30px;
     bottom: 40px;
       color:#FB6520;
