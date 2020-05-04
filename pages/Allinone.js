@@ -5,7 +5,7 @@ import Banner from '../components/Allinone/banner';
 import Imagıne from "../components/Allinone/imagine"
 import ImagıneLogos from "../components/Allinone/imagine2logos"
 import Madde from "../components/Allinone/Madde"
-class Signup extends Component {
+class Allinone extends Component {
     render() {
         return (
             <React.Fragment>
@@ -20,4 +20,4 @@ class Signup extends Component {
     }
 }
 
-export default Signup;
+export default Allinone;
