@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import {Button} from "@material-ui/core"
 import { Row, Col } from "react-bootstrap"
 
-import logo2 from "../../images/Cards/LG.png"
+import logo2 from "../../images/home/lg.png"
 import logo3 from "../../assets/back/home/hard.png"
 import logo1 from "../../images/Cards/Software (1).png"
 

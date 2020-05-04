@@ -517,7 +517,152 @@ background-size: inherit !important;
   margin-bottom: 30px;
 }
   }
+ .imghomelogo{
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
+.m-20{
+  margin-right: 20px !important;
+}
+.pl-2{
+ 
+  padding-left: 2px;
+}
+.fs15{
+  font-size: 15px;
+}
+.mb50{
+  margin-bottom: 50px;
+}
+
+.lch {
+  width: 100%;
+  margin: 50px auto 0px;
+  text-align: center;
+}
+
+.un1{
+  width: 80%;
+  margin: 50px auto 0px;
+  text-align: center;
+}
+
+
+
+
+.iibgc{
+  background-color: rgb(240, 243, 245);
+}
+
+
+
+.m10-fs50{
+ 
+    margin: 10px;
+    font-size: 50px;
+
+}
+
+
+.w90-js{
+  justify-content: start !important;
+  width: 90% !important;
+
+
+}
+
+.mbt-20{
+  justify-content: start !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mt-40-js {
+  justify-content: start !important;
+  margin-top: 40px !important;
+}
+.mt10{
+  margin-top: 10px;
+}
+
+.iitem{
+  margin: 10px;
+    font-size: 70px;
+  
+    display: flex;
+}
+.iitems{
+  margin-top: 10px;
+    font-size: 70px;
+  
+    display: flex;
+}
+
+.mt50{
+  margin-top: 50px;
+}
+
+.homecheck{
+
+  margin: 4px !important;
+  align-items: center !important;
+  font-size: 15px !important;
+}
+
+
+
+.MuiButton-root{
+  
+    background-color: rgb(251, 101, 32) !important;
+    color: white !important;
+   
+    text-transform: none !important;
+
+}
+
+
+.colororange{
+  color:#FB6520
+}
+.pt-50{
+  padding-top: 50px;
+}
+
+.androidl {
+  margin: 20px;
+  font-size: 40px;
+  align-items: center;
+  display: flex;
+  color: rgb(50, 222, 132);
+}
+
+
+
+.fs50{
+  font-size: 50px;
+}
+.linuxl {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.fs20-mb10{    font-size: 20px;
+  margin-bottom: 10px;}
+  .windowsl{
+    margin: 20px 10px;
+    font-size: 40px;
+    color: rgb(0, 173, 239);
+  }
+
+@media screen and (min-width: 800px) {
+  .newspan{
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+      color:#FB6520;
+    }
+} 
 
   @media screen and (max-width: 800px) {
     .backg{
@@ -527,6 +672,13 @@ background-size: inherit !important;
      padding-top: 30px !important;
     }
   } 
+  .MuiInput-underline:before {
+    
+    border-bottom: 1px solid #eeeeee !important; 
+    
+}
+
+
   @media screen and (min-width: 1400px) {
     .imagines{
         margin-top: 100px !important;

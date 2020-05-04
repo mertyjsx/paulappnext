@@ -10,39 +10,38 @@ import Customise from "../../images/customise.svg"
 const Imagıne = () => {
 
     return (
-        <div style={{backgroundColor:"#f0f3f5"}} className="backg  imagines">
+        <div  className="backg  imagines iibgc">
         <div className="hero-content  container" >
-            <div style={{ width: "80%", margin: "0 auto", textAlign: "center", marginTop: 50 }}><h2 className={"response"}>Imagine a Platform That Does it All</h2></div>
+            <div ><h2 className={"response un1"}>Imagine a Platform That Does it All</h2></div>
 
 
-            <Row style={{ width: "80%", margin: "0 auto", textAlign: "center", marginTop: 50 }}>
+            <Row className="un1 mt50">
                 <Col sm={4} md={4} lg={2}  xs={4} >
-                    <div style={{ margin: 10, padding: "auto", fontSize: 70, justifyContent: "center", display: "flex" }} className="justify-content-center align-items-center"><img src={Manage}></img></div>
+                    <div className="justify-content-center align-items-center iitem"><img src={Manage}></img></div>
                     <p style={{color:"black",textAlign:"center"}}>Manage</p>
 
                 </Col>
 
                 <Col sm={4} md={4} lg={2}  xs={4}>
-                    <div style={{ marginTop: 10, padding: "auto", fontSize: 70, display: "flex", justifyContent: "center" }} ><img src={Monitor}></img></div>
+                    <div className="iitems" ><img src={Monitor}></img></div>
                     <p style={{color:"black",marginTop:5,textAlign:"center"}}>Monitor</p>
                 </Col>
 
                 <Col sm={4} md={4} lg={2}  xs={4}>
-                    <div style={{ margin: 10, padding: "auto", fontSize: 70, justifyContent: "center", display: "flex" }} className="justify-content-center align-items-center"><img src={Create}></img></div>
+                    <div className="justify-content-center align-items-center iitem"><img src={Create}></img></div>
                     <p style={{color:"black",marginTop:5,textAlign:"center"}}>Create</p>
                 </Col>
                 <Col sm={4} md={4} lg={2}  xs={4}>
-                    <div style={{ marginTop: 10, padding: "auto", fontSize: 70, justifyContent: "center", display: "flex" }} className="justify-content-center align-items-center"><img src={Schedule}></img></div>
+                    <div  className="justify-content-center align-items-center iitems"><img src={Schedule}></img></div>
 <p style={{color:"black",marginTop:5,textAlign:"center"}}>Schedule</p>
                 </Col>
 
                 <Col sm={4} md={4} lg={2}  xs={4}>
-                    <div style={{ margin: 10, padding: "auto", fontSize: 70, justifyContent: "center", display: "flex" }} className="justify-content-center align-items-center"><img src={Analyse}></img></div>
+                    <div  className="justify-content-center align-items-center iitem"><img src={Analyse}></img></div>
                     <p style={{color:"black",marginTop:5,textAlign:"center"}}>Analyse</p>
                 </Col>
                 <Col sm={4} md={4} lg={2}  xs={4}>
-
-                    <div style={{ margin: 10, padding: "auto", fontSize: 70, justifyContent: "center", display: "flex" }} className="justify-content-center align-items-center"><img src={Customise}></img></div>
+                    <div className="justify-content-center align-items-center iitem"><img src={Customise}></img></div>
                     <p style={{color:"black",textAlign:"center"}}>Scale</p>
                 </Col>
 

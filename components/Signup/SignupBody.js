@@ -9,6 +9,7 @@ import images from "../../images/rcl/regi.png"
 import logo from "../../images/logom.png"
 import Router from 'next/router'
 import {Col,Row} from "react-bootstrap"
+import { Input } from '@material-ui/core';
 import ReCAPTCHA from "react-google-recaptcha";
 
 import axios from 'axios';
@@ -21,6 +22,7 @@ import {
 
 class SignupBody extends Component {
     state = {
+        licance:1,
         username: '',
         email: '',
         password: '',
@@ -40,6 +42,13 @@ class SignupBody extends Component {
         register: PropTypes.func.isRequired,
         clearErrors: PropTypes.func.isRequired
     };
+
+componentDidMount() {
+    let Arrayop=[]
+
+
+}
+
 
     componentDidUpdate(prevProps) {
         const { error, isAuthenticated } = this.props;
@@ -124,7 +133,14 @@ class SignupBody extends Component {
         this.setState({businesstype: event.target.value});
     }
 
+onLicance=()=>{
+    this.setState({licance: event.target.value});
+}
+
+
+
     render() {
+console.log(this.state.selectArray)
         return (
             <section className="signup-area ptb-100">
                 <div className="container">
@@ -199,35 +215,28 @@ class SignupBody extends Component {
                                                 <MenuItem value="Outdoor">Outdoor</MenuItem>
                                                 <MenuItem value="Hospitality">Hospitality</MenuItem>
                                                 <MenuItem value="Healthcare">Healthcare</MenuItem>
+                                                <MenuItem value="Healthcare">Digital signage</MenuItem>
+                                                <MenuItem value="Healthcare">Agency</MenuItem>
                                             </Select>
 
                                             </Col>
 <Col>
 
-                                            <Select
-                                   
-                                                value={this.state.businesstype}
-                                                onChange={this.onBusinessType}
-                                                className="selectm"
-                                                style={{width: "100%", paddingLeft: "12px",marginBottom:20,marginTop:10,borderBottom:"1px solid #eeeeee",paddingRight:0}}
-                                            >
-                                                <MenuItem value="None">Licences</MenuItem>
-                                                <MenuItem value="Retail">Retail</MenuItem>
-                                                <MenuItem value="Restaurant">Restaurant</MenuItem>
-                                                <MenuItem value="Corporate">Corporate</MenuItem>
-                                                <MenuItem value="Education">Education</MenuItem>
-                                                <MenuItem value="Gambling">Gambling</MenuItem>
-                                                <MenuItem value="Outdoor">Outdoor</MenuItem>
-                                                <MenuItem value="Hospitality">Hospitality</MenuItem>
-                                                <MenuItem value="Healthcare">Healthcare</MenuItem>
-     
-                                            </Select>
+            
+
+                                           
+                                             <input 
+                                             placeholder="Licence"
+                                              style={{width: "100%", paddingLeft: "12px",marginBottom:20,marginTop:10,paddingRight:0}}
+                                              className="form-control" 
+                                             id={'licance'}  min={0} max={9999} type={'number'} name={'licance'} defaultValue={"licance"} onChange={this.onLicance} required />
                                             </Col>
                                             </Row>      
                                      
                                         <div className="col-lg-12">
                                             <div className="form-group">
                                                 <input type="text" 
+
                                                     name="accountname" 
                                                     id="accountname" 
                                                     className="form-control" 

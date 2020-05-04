@@ -160,6 +160,14 @@ class Navbar extends React.Component {
                                                 <a className="nav-link">Software</a>
                                             </Link>
                                         </li>
+                                        <li className="nav-item">
+                                        <span className="newspan">New</span>
+                                            <Link activeClassName="active" href="/allinone">
+                                               
+                                                <a className="nav-link">All in one</a>
+                                            </Link>
+                                        </li>
+
 
                                         <li className="nav-item"><a href="#" className="nav-link">Industries</a>
                                             <ul className="dropdown_menu">

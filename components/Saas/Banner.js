@@ -11,7 +11,7 @@ import img3 from "../../images/3.png"
 import img4 from "../../images/4.png"
 import img5 from "../../images/5.png"
 import img6 from "../../images/6.png"
-import mainimg from "../../images/banner.png"
+import mainimg from "../../images/home/mb.png"
 const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wowjs') : null
 
@@ -36,39 +36,39 @@ class Banner extends React.Component {
                                 <Row className="television">
 
 
-                                    <Col sm={12} md={12} lg={6} style={{paddingTop:50}}>
+                                    <Col sm={12} md={12} lg={6} className="pt-50">
                                         <div className="hero-content pl-4 ">
-                                            <h1 className="response2 " style={{ fontSize: 50 }}>Anything Is Possible With <span style={{ color: "#FB6520" }}>Imagine</span> Digital Signage </h1>
+                                            <h1 className="response2 fs50" >Anything Is Possible With <span className="colororange">Imagine</span> Digital Signage </h1>
 
-                                            <p style={{ fontSize: 20 ,marginBottom:10}}>Take control of your screens! It’s easy to install and even easier to manage. Try Imagine for free today.</p>
+                                            <p className="fs20-mb10">Take control of your screens! It’s easy to install and even easier to manage. Try Imagine for free today.</p>
                                             <div className="flexcontainerrow" style={{ justifyContent: "start" }}>
-                                            <div style={{ margin:"20px 10px", padding: "auto", fontSize: 40,color:"rgb(0,173,239)" }}><FaWindows ></FaWindows></div>
-                                                <div style={{ margin: 20, padding: "auto", fontSize: 40 }}><FcLinux ></FcLinux></div>
-                                                <img src={logo2} style={{ width: 80,marginLeft:5,marginRight:5 }}></img>
-                                                <div style={{ margin: 20, padding: "auto", fontSize: 40, alignItems: "center", display: "flex", color: "#32DE84" }}><FaAndroid></FaAndroid></div>
+                                            <div className="windowsl"><FaWindows ></FaWindows></div>
+                                                <div className="linuxl"><FcLinux ></FcLinux></div>
+                                                <img  className="imghomelogo" src={logo2} alt="notfound"></img>
+                                                <div className="androidl"><FaAndroid></FaAndroid></div>
 
 
                                             </div>
 
-                                            <div className={"flexcontainerrow"} style={{ justifyContent: "start", marginTop: 20, marginBottom: 20 }}>
+                                            <div className={"flexcontainerrow mbt-20"} >
 
 
                                             <Link href="/signup/">
-                                                    <Button variant="contained" style={{ backgroundColor: "#FB6520", color: "white", marginRight: 30 }} size="large" component="a"> 
-                                                        <div style={{ display: "flex", flexDirection: "column", textTransform: "none" }} >
+                                                    <Button variant="contained" className="m-20" size="large" component="a"> 
+                                                        
                                                        
                                                             <div>Start Trial</div>
                                                             
 
-                                                        </div>
+                                                      
 
                                                     </Button>
                                                     </Link>
 
                                                
                                                 <Link href="/contact/">
-                                                    <Button variant="contained" style={{ backgroundColor: "#FB6520", color: "white" }} size="large" component="a">
-                                                        <div style={{ display: "flex", flexDirection: "column", textTransform: "none" }}>
+                                                    <Button variant="contained"  size="large" component="a">
+                                                        <div >
 
                                                             <div >Book Trial</div>
 
@@ -81,26 +81,26 @@ class Banner extends React.Component {
                                                 </Link>
 
                                             </div>
-                                            <div className="flexcontainerrow" style={{ justifyContent: "start",width:"90%" }}>
-                                                <div className="flexcontainerrow " style={{ justifyContent: "start", marginTop: 40 }}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
+                                            <div className="flexcontainerrow w90-js" >
+                                                <div className="flexcontainerrow mt-40-js" > <FaCheck className="homecheck"></FaCheck>
 
-                                                    <div style={{ fontSize: 15 }}>14-day free trial</div>
+                                                    <div className="fs15">14-day free trial</div>
                                                 </div>
-                                                <div className="flexcontainerrow freeres" style={{ justifyContent: "start", marginTop: 40 ,paddingLeft:5}}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
+                                                <div className="flexcontainerrow freeres mt-40-js pl-2" > <FaCheck  className="homecheck"></FaCheck>
 
-                                                    <div style={{ fontSize: 15 }}>No credit card</div>
+                                                    <div className="fs15">No credit card</div>
                                                 </div>
-                                                <div className="flexcontainerrow " style={{ justifyContent: "start", marginTop: 40 }}> <FaCheck style={{ margin: 4, alignItems: "center", fontSize: 15 }}></FaCheck>
+                                                <div className="flexcontainerrow mt-40-js" > <FaCheck  className="homecheck"></FaCheck>
 
-                                                    <div style={{ fontSize: 15 }}>No contracts</div>
+                                                    <div className="fs15">No contracts</div>
                                                 </div>
                                 
                                             </div>
 
                                         </div>
                                     </Col>
-                                    <Col sm={12} md={12} lg={6} style={{ marginBottom: 50 }}>
-                                        <div style={{ paddingTop: 50 }}>
+                                    <Col sm={12} md={12} lg={6} className="mb50">
+                                        <div className="pt-50">
                                             <img
                                                 src={mainimg}
                                                 className="wow zoomIn"
@@ -111,34 +111,34 @@ class Banner extends React.Component {
                                         </div>
                                     </Col>
                                 </Row>
-                                <Row style={{ marginTop: 120, marginBottom: 100 }} style={{ width: "100%", margin: "0 auto", textAlign: "center", marginTop: 50 }}>
+                                <Row className="lch">
                                     <Col lg={2} md={4} sm={4} xs={4}>
-                                        <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img1} alt=""></img></div>
+                                        <div className="m10-fs50"><img src={img1} alt=""></img></div>
 
 
                                     </Col>
 
                                     <Col lg={2} md={4} sm={4} xs={4}>
-                                        <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img2} alt=""></img></div>
+                                        <div className="m10-fs50"><img src={img2} alt=""></img></div>
 
                                     </Col>
 
                                     <Col lg={2} md={4} sm={4} xs={4}>
-                                        <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img3} alt=""></img></div>
+                                        <div className="m10-fs50"><img src={img3} alt=""></img></div>
 
                                     </Col>
 
                                     <Col lg={2} md={4} sm={4} xs={4}>
 
-                                        <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img4} alt=""></img></div>
+                                        <div className="m10-fs50"><img src={img4} alt=""></img></div>
                                     </Col>
                                     <Col lg={2} md={4} sm={4} xs={4} >
 
-                                        <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img5} alt=""></img></div>
+                                        <div className="m10-fs50"><img src={img5} alt=""></img></div>
                                     </Col>
                                     <Col lg={2} md={4} sm={4} xs={4}>
 
-                                        <div style={{ margin: 10, padding: "auto", fontSize: 50 }}><img src={img6} alt=""></img></div>
+                                        <div className="m10-fs50"><img src={img6} alt=""></img></div>
                                     </Col>
                                 </Row>
                             </div>
