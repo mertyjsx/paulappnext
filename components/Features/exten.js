@@ -82,8 +82,8 @@ console.log(
             
             )
   return (
-    <Row style={{ marginTop: 70,marginBottom:70 }}>
-    <Col md={12} lg={6} style={{ paddingTop: 100,display:"flex",alignItems:"center"}}>
+    <Row className="mt70 mb70">
+    <Col md={12} lg={6} className="excol1">
 {
 Arrayimages.map((item)=>(
   <img src={item} alt="" style={{width:current===item?"100%":0}}></img>))
@@ -92,9 +92,9 @@ Arrayimages.map((item)=>(
 
         
     </Col>
-    <Col md={12} lg={6} style={{ justifyContent: "center", alignContent: "center",marginTop:100 }}>
-    <div style={{ display: "flex", justifyContent: "start", alignItems: "start",marginBottom:20}}>
-                        <h2 className="settitle" style={{ textAlign: "start", paddingRight: 20, paddingLeft: 20, fontSize: "2rem" }}>{header}</h2>
+    <Col md={12} lg={6} className="excol2">
+    <div className="exhead">
+                        <h2 className="settitle exheadh2" >{header}</h2>
 
                     </div>
     <div className={classes.root}>

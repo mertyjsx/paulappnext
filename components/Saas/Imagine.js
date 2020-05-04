@@ -18,35 +18,35 @@ const Imagıne = () => {
             <Row className="un1 mt50">
                 <Col sm={4} md={4} lg={2}  xs={4} >
                     <div className="justify-content-center align-items-center iitem"><img src={Manage}></img></div>
-                    <p style={{color:"black",textAlign:"center"}}>Manage</p>
+                    <p className="tcenter">Manage</p>
 
                 </Col>
 
                 <Col sm={4} md={4} lg={2}  xs={4}>
                     <div className="iitems" ><img src={Monitor}></img></div>
-                    <p style={{color:"black",marginTop:5,textAlign:"center"}}>Monitor</p>
+                    <p className="msna">Monitor</p>
                 </Col>
 
                 <Col sm={4} md={4} lg={2}  xs={4}>
                     <div className="justify-content-center align-items-center iitem"><img src={Create}></img></div>
-                    <p style={{color:"black",marginTop:5,textAlign:"center"}}>Create</p>
+                    <p className="msna">Create</p>
                 </Col>
                 <Col sm={4} md={4} lg={2}  xs={4}>
                     <div  className="justify-content-center align-items-center iitems"><img src={Schedule}></img></div>
-<p style={{color:"black",marginTop:5,textAlign:"center"}}>Schedule</p>
+<p className="msna">Schedule</p>
                 </Col>
 
                 <Col sm={4} md={4} lg={2}  xs={4}>
                     <div  className="justify-content-center align-items-center iitem"><img src={Analyse}></img></div>
-                    <p style={{color:"black",marginTop:5,textAlign:"center"}}>Analyse</p>
+                    <p className="msna">Analyse</p>
                 </Col>
                 <Col sm={4} md={4} lg={2}  xs={4}>
                     <div className="justify-content-center align-items-center iitem"><img src={Customise}></img></div>
-                    <p style={{color:"black",textAlign:"center"}}>Scale</p>
+                    <p className="tcenter">Scale</p>
                 </Col>
 
             </Row>
-            <div style={{ width: "80%", margin: "0 auto", textAlign: "center", marginTop: 50 }}><p style={{ color: "black" }}>Effectively managing thousands of screens and trusted by all business sizes in South Africa and around the world. Imagine is a simple and reliable tool to manage your screens content without any fuss. Offering tools like a comprehensive dashboard, designer and scheduler interface that is intuitive and reliable. Imagine zero limitations.
+            <div className="un1 "><p className="black" >Effectively managing thousands of screens and trusted by all business sizes in South Africa and around the world. Imagine is a simple and reliable tool to manage your screens content without any fuss. Offering tools like a comprehensive dashboard, designer and scheduler interface that is intuitive and reliable. Imagine zero limitations.
 
 </p></div>
 

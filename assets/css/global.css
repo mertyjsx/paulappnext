@@ -321,6 +321,58 @@ font-family: 'Manrope', sans-serif;
 font-size: 1.5rem;
 }
 
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .buttonmres2 {
+    margin-top: 8px !important;
+}
+}
+@media screen and (max-width: 900px)  {
+  .buttonmres2 {
+    margin-top: 35px !important;
+}
+}
+@media screen and (min-width: 1200px) {
+  .buttonmres2 {
+    margin-top: 35px !important;
+}
+
+}
+
+.exhead{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 20px;
+}
+.exheadh2{
+  text-align: start;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 2rem;
+}
+
+
+.excol1{
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.excol2{
+
+    place-content: center;
+    margin-top: 100px;
+
+}
+
+.mb70{
+  margin-bottom: 70px;
+}
+.mt70{
+  margin-top: 70px;
+}
+
+
+
 @media screen and (max-width: 700px) {
     .television{
    flex-direction: column-reverse;
@@ -583,7 +635,10 @@ background-size: inherit !important;
   margin-top: 40px !important;
 }
 .mt10{
-  margin-top: 10px;
+  margin-top: 10px !important;
+}
+.tcenter2{
+  text-align: center;
 }
 
 .iitem{
@@ -592,11 +647,56 @@ background-size: inherit !important;
   
     display: flex;
 }
+.mt100{
+  margin-top: 100px;
+}
+.mb100{
+
+  margin-bottom: 100px;
+}
+.mb10{
+  margin-bottom: 10px !important;
+}
+.mt5{
+  margin-top: 5px !important;
+}
+
+
+
+
+.buttonmres1{
+
+margin-top: 35px !important;
+
+}
+
+
+
+
+
+
+
 .iitems{
   margin-top: 10px;
     font-size: 70px;
   
     display: flex;
+}
+
+.tcenter{
+  color: black;
+  text-align: center;
+}
+
+.msna{
+  color: black;
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+.black{
+  color:black;
 }
 
 .mt50{
@@ -623,7 +723,7 @@ background-size: inherit !important;
 
 
 .colororange{
-  color:#FB6520
+  color:#FB6520 !important;
 }
 .pt-50{
   padding-top: 50px;
